@@ -1,0 +1,18 @@
+# Build stage
+FROM node:20-alpine AS builder
+RUN apk update
+RUN apk add git
+
+RUN npm install -g pm2
+
+WORKDIR /app
+RUN git clone https://github.com/jankiz/Program-systems-development.git
+WORKDIR /app/Program-systems-development
+RUN git checkout release/devops
+
+WORKDIR /app/Program-systems-development/server
+RUN npm install
+RUN npm run build
+
+EXPOSE 5000
+CMD ["pm2-runtime", "start", "build/index.js"]

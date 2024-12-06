@@ -1,0 +1,43 @@
+# Build stage
+FROM node:20-alpine AS builder
+RUN apk update
+RUN apk add git
+RUN npm install -g @angular/cli
+RUN npm install -g pm2
+RUN npm install -g http-server
+WORKDIR /app
+RUN git clone https://github.com/jankiz/Program-systems-development.git
+WORKDIR /app/Program-systems-development
+RUN git checkout release/devops
+WORKDIR /app/Program-systems-development/client/my-first-project
+RUN npm install
+RUN npm run build
+EXPOSE 4200
+
+
+
+
+RUN apk add curl
+
+# Install Zabbix Agent
+RUN apk add --no-cache \
+    pcre \
+    zabbix-agent2
+# Configure Zabbix Agent
+COPY zabbix_agent2.conf /etc/zabbix/zabbix_agent2.conf
+
+# Install rsyslog
+RUN apk add --no-cache rsyslog
+# Create rsyslog config
+COPY rsyslog.conf /etc/rsyslog.conf
+
+RUN mkdir -p /var/log/pm2
+
+# Configure PM2 to use syslog
+ENV PM2_SYSLOG=true
+
+COPY start-angular.sh ./start-angular.sh
+
+RUN chmod +x start-angular.sh
+
+CMD ["./start-angular.sh"]
