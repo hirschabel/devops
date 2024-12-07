@@ -38,8 +38,6 @@ A kiinduló projekt a fórumon megosztott terraformba helyezett prf (angular-mon
 
 Ez kibővítve egy futó Nginx szerverrel ami a kiinduló alkalmazás egyszerűbb elérését biztosítja. Logolásra Graylog, monitorozásra Zabbix szolgáltatások futnak, az angular-app  és a nodejs-app összeköthető velük.
 
-TODO: nodejs-app logolásra és monitorozásra kötése
-
 ### Nginx
 TODO
 

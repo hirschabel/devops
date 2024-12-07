@@ -14,5 +14,29 @@ WORKDIR /app/Program-systems-development/server
 RUN npm install
 RUN npm run build
 
-EXPOSE 5000
-CMD ["pm2-runtime", "start", "build/index.js"]
+EXPOSE 5000 10050
+
+RUN apk add curl
+
+# Install Zabbix Agent
+RUN apk add --no-cache \
+    pcre \
+    zabbix-agent2
+# Configure Zabbix Agent
+COPY zabbix_agent2.conf /etc/zabbix/zabbix_agent2.conf
+
+# Install rsyslog
+RUN apk add --no-cache rsyslog
+# Create rsyslog config
+COPY rsyslog.conf /etc/rsyslog.conf
+
+RUN mkdir -p /var/log/pm2
+
+# Configure PM2 to use syslog
+ENV PM2_SYSLOG=true
+
+COPY start-nodejs.sh ./start-nodejs.sh
+
+RUN chmod +x start-nodejs.sh
+
+CMD ["./start-nodejs.sh"]
