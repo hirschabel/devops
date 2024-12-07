@@ -52,3 +52,18 @@ module "nginx" {
   container_name = "${var.project_name}-nginx"
 }
 
+# Zabbix modul
+module "zabbix" {
+  source = "./modules/zabbix"
+  
+  mysql_root_password = var.mysql_root_password
+  zabbix_mysql_password = var.zabbix_mysql_password
+}
+
+# Graylog modul
+module "graylog" {
+  source = "./modules/graylog"
+  
+  graylog_password_secret    = var.graylog_password_secret
+  graylog_root_password_sha2 = var.graylog_root_password_sha2
+}

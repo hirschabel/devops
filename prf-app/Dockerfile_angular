@@ -12,7 +12,7 @@ RUN git checkout release/devops
 WORKDIR /app/Program-systems-development/client/my-first-project
 RUN npm install
 RUN npm run build
-EXPOSE 4200
+EXPOSE 4200 10050
 
 
 
