@@ -83,7 +83,7 @@ A monitorozó applikációkat eléred a
 
 ### Projekt leírás
 
-A projekt a saját prf "fakebook" projektem. Kiindultam a gyak dokumentumokba feltöltött tf fájlokból, átírtam a saját git repom-ra, javítottam a mappákat és így indul a projekt. Nálam az 6000-es porton várja a a mongodb-t a projekt, ezért oda van nyitva a port.
+A projekt a saját prf "fakebook" projektem. Kiindultam a gyak dokumentumokba feltöltött tf fájlokból, átírtam a saját git repom-ra, javítottam a mappákat és így indul a projekt. Működik a csatlakozás a frontend - backend - mongodb között.
 
 Ez kibővítve egy futó Nginx szerverrel ami a kiinduló alkalmazás egyszerűbb elérését biztosítja. Logolásra Graylog, monitorozásra Zabbix szolgáltatások futnak, az angular-app  és a nodejs-app összeköthető velük.
 
@@ -96,7 +96,7 @@ Erről többet itt találsz: https://github.com/hirschabel/fakebook/tree/devops
 
 Commit: https://github.com/hirschabel/fakebook/commit/1bd19cfce288265a47b717c39c0cd3c2306aa513
 
-Sajnos a docker logs a servernél azt írja, hogy a mongodb connection refused-ot adott neki, pedig az ip és a port egyezik, így csak elméletben használható az alkalmazás
+Egy rákövetkező commit megoldotta a csatlakozási problémákat a backend és mongodb között, most már sikeres a kommunikáció. 
 
 ### Nginx
 Annyit csinál, hogy a localhost-t beírva (localhost:80) átirányítja a user-t a localhost:4200-on futó angular felé.
