@@ -118,3 +118,10 @@ A tett lépések:
   * graylog és zabbix
   * frissítve lettek az ip-k, hogy ne ütközzenek a már meglévőkkel
 
+## Használt tool-ok
+* Terraform
+* Nginx
+* Graylog
+* Zabbix
+* Jenkins
+
