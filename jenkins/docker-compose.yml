@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  jenkins:
+    build: .
+    container_name: jenkins_container
+    ports:
+      - "8090:8080"
+      - "50000:50000"
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+      - ../prf-app:/workspace
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+

@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1472.ve4d5eca_143c4">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2218.v56d0cda_37c72"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2218.v56d0cda_37c72">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4000.v5198556e9cea_">
+    <script>pipeline {
+    agent any
+    environment {
+        DOCKER_HOST = &apos;unix:///var/run/docker.sock&apos;
+        WORKSPACE_DIR = &apos;/workspace&apos;
+    }
+    stages {
+        stage(&apos;Prepare Workspace&apos;) {
+            steps {
+                script {
+                    sh &quot;ls -l $WORKSPACE_DIR&quot;
+                }
+            }
+        }
+        stage(&apos;Initialize Terraform&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                cd $WORKSPACE_DIR
+                terraform init
+                &apos;&apos;&apos;
+            }
+        }
+        stage(&apos;Plan Terraform&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                cd $WORKSPACE_DIR
+                terraform plan
+                &apos;&apos;&apos;
+            }
+        }
+        stage(&apos;Apply Terraform&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                cd $WORKSPACE_DIR
+                terraform apply -auto-approve
+                &apos;&apos;&apos;
+            }
+        }
+        stage(&apos;Verify Docker Containers&apos;) {
+            steps {
+                sh &apos;docker ps&apos;
+            }
+        }
+    }
+    post {
+        success {
+            echo &apos;Pipeline completed successfully.&apos;
+        }
+        failure {
+            echo &apos;Pipeline failed.&apos;
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

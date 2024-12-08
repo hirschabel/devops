@@ -1,0 +1,1807 @@
+Started by user unknown or anonymous
+[8mha:////4NOV2TwU8SwfKVS/o4CJ0Xf0/YMVRP/zjR4qRsxvxthUAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Irs7WfKCMhtCfaI0hnlAuB2cBZkc2LX9Zd4CM/oyIgeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HO5TlQB5klwfi3Q2VHPn9gUdme3FYRh3tQPgXyuD47ZAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/In a completely sane world, madness is the only freedom
+[8mha:////4D8pqxCaKtL+EWSXhDAYTYKZn1eg30MnL0WiRETIAlLDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LwjW9GUGIBnS35Yw5u3wiaHjnOFFskaJ27wGiSlQNjFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4ADUPYLT56zduW/PKjEPzmyjQ0tbcVxFV5SrW2FgFgXaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4A8l+8sOwQ21/1FFmVKp5gnb+4vA5Kr++00BY2fiIK7xAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4EHQjeg/K8Pn7sGo63LrUKcUWLqb3WgZAOR7aYR5q6zNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Prepare Workspace)
+[8mha:////4JaqCKRlhzXmmTOdwP9++d5Rc7O+fB9RJysjwncHcq8bAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] script
+[8mha:////4LD/wvo6zYMlm6en4Fdqph0/hMqWiZL2oGzh0MEUFrG1AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4LuhDfg5SK9iLzPN7Hu/HLccg7Yf4wsTK/NVRe1Y+qpsAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
++ ls -l /workspace
+total 116
+-rw-rw-r-- 1 jenkins jenkins  1015 Dec  8 19:23 Dockerfile_angular
+-rw-rw-r-- 1 jenkins jenkins    38 Dec  6 21:34 Dockerfile_mongodb
+-rw-rw-r-- 1 jenkins jenkins    92 Dec  6 22:21 Dockerfile_nginx
+-rw-rw-r-- 1 jenkins jenkins   918 Dec  8 19:23 Dockerfile_nodejs
+-rw-rw-r-- 1 jenkins jenkins  3555 Dec  6 21:34 README.md
+-rw-rw-r-- 1 jenkins jenkins  1411 Dec  6 23:39 main.tf
+drwxrwxr-x 8 jenkins jenkins  4096 Dec  6 23:30 modules
+-rw-rw-r-- 1 jenkins jenkins   528 Dec  7 00:03 rsyslog.conf
+-rw-rw-r-- 1 jenkins jenkins   320 Dec  7 00:08 start-angular.sh
+-rw-rw-r-- 1 jenkins jenkins   251 Dec  7 11:28 start-nodejs.sh
+-rw-r--r-- 1 root    root      182 Dec  8 19:32 terraform.tfstate
+-rw-r--r-- 1 root    root    58397 Dec  8 19:32 terraform.tfstate.backup
+-rw-rw-r-- 1 jenkins jenkins   348 Dec  7 00:23 terraform.tfvars
+-rw-rw-r-- 1 jenkins jenkins  1142 Dec  6 23:25 variables.tf
+-rw-rw-r-- 1 jenkins jenkins    79 Dec  6 23:39 zabbix_agent2.conf
+[8mha:////4LXQyEcY8xmcVAgumy9AB+dFb2Q6UxJnYUis9KjXWY2iAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4AXB+aq/mIgFJ40/OrH2MykGqhjD3Jb0oDSErc6ZTtMWAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // script
+[8mha:////4GUuutUcfuMdDXpgVpRJPGzHdXDsu4YESskD87XaNlsOAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4OmbxeJHKs0uA/XVmyNg1smaENCbOmp2WJpQJpjv2+D0AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
+[8mha:////4L27yZo6U+wsT9/R1hi3r2IGQ/llDrRL1av5dDeIClaiAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4LpBV31WScapuBSaZrf5oo+dNLV0NihJ4a3CRrblb0W8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Initialize Terraform)
+[8mha:////4I/B+m4fiIU7tVhv59LIok4VWz1zg/u4UEVvhANemBnOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ cd /workspace
++ terraform init
+[0m[1mInitializing the backend...[0m
+[0m[1mInitializing modules...[0m
+[0m[1mInitializing provider plugins...[0m
+- Reusing previous version of kreuzwerker/docker from the dependency lock file
+- Using previously-installed kreuzwerker/docker v3.0.2
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+[8mha:////4OnHMIi7IaHY+054t+ZVvtZ+BRrCh6+CvHUtcMArxYfxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4ET9XnPm9Qls1w7WHtBtOvvTkuN/T62IX4yoAi5ag3pwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4M2KGOI9aJZmkJFjPC3O7XrGyiWJ1QXR+M9Y9r/Od+27AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvT5Ty88EAAAA=[0m[Pipeline] stage
+[8mha:////4Bhw4a8Hgx3kMXDDsfweHIZwAXuN88jgZcFuZ6ZpHEEiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Plan Terraform)
+[8mha:////4AfkQd14bUsRv7NdE6UyjKo5VfT7/HZ02cc6K/7bzKaaAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ cd /workspace
++ terraform plan
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create[0m
+
+Terraform will perform the following actions:
+
+[1m  # docker_network.app_network[0m will be created
+[0m  [32m+[0m[0m resource "docker_network" "app_network" {
+      [32m+[0m[0m driver      = "bridge"
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m internal    = false
+      [32m+[0m[0m ipam_driver = "default"
+      [32m+[0m[0m name        = "prf-project-network"
+      [32m+[0m[0m options     = (known after apply)
+      [32m+[0m[0m scope       = (known after apply)
+
+      [32m+[0m[0m ipam_config {
+          [32m+[0m[0m gateway  = "172.100.0.1"
+          [32m+[0m[0m subnet   = "172.100.0.0/16"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.angular_app.docker_container.angular_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "angular_app" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-angular"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-angular"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.20"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 4200
+          [32m+[0m[0m internal = 4200
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.angular_app.docker_image.angular_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "angular_app" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "angular-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_angular"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "angular-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_container.datanode[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "datanode" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "datanode"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "graylog/graylog-datanode:6.0"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "datanode"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "on-failure"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.11"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 8999
+          [32m+[0m[0m internal = 8999
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 9200
+          [32m+[0m[0m internal = 9200
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 9300
+          [32m+[0m[0m internal = 9300
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+
+      [32m+[0m[0m ulimit {
+          [32m+[0m[0m hard = -1
+          [32m+[0m[0m name = "memlock"
+          [32m+[0m[0m soft = -1
+        }
+      [32m+[0m[0m ulimit {
+          [32m+[0m[0m hard = 65536
+          [32m+[0m[0m name = "nofile"
+          [32m+[0m[0m soft = 65536
+        }
+
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/var/lib/graylog-datanode"
+          [32m+[0m[0m volume_name    = "graylog-datanode"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_container.graylog[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "graylog" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = [
+          [32m+[0m[0m "/usr/bin/tini",
+          [32m+[0m[0m "--",
+          [32m+[0m[0m "/docker-entrypoint.sh",
+        ]
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "server"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "graylog/graylog:6.0"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "graylog"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "on-failure"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.12"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5044
+          [32m+[0m[0m internal = 5044
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5140
+          [32m+[0m[0m internal = 5140
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "udp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5140
+          [32m+[0m[0m internal = 5140
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5555
+          [32m+[0m[0m internal = 5555
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5555
+          [32m+[0m[0m internal = 5555
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "udp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 9000
+          [32m+[0m[0m internal = 9000
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 12201
+          [32m+[0m[0m internal = 12201
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 12201
+          [32m+[0m[0m internal = 12201
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "udp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 13301
+          [32m+[0m[0m internal = 13301
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 13302
+          [32m+[0m[0m internal = 13302
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/usr/share/graylog/data/data"
+          [32m+[0m[0m volume_name    = "graylog_data"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/usr/share/graylog/data/journal"
+          [32m+[0m[0m volume_name    = "graylog_journal"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_container.mongodb[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "mongodb" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "mongo:5.0"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "mongodb"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "on-failure"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.15"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/data/db"
+          [32m+[0m[0m volume_name    = "mongodb_data"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_volume.graylog_data[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "graylog_data" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "graylog_data"
+    }
+
+[1m  # module.graylog.docker_volume.graylog_datanode[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "graylog_datanode" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "graylog-datanode"
+    }
+
+[1m  # module.graylog.docker_volume.graylog_journal[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "graylog_journal" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "graylog_journal"
+    }
+
+[1m  # module.graylog.docker_volume.mongodb_data[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "mongodb_data" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "mongodb_data"
+    }
+
+[1m  # module.mongodb.docker_container.mongodb[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "mongodb" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-mongodb"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-mongodb"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.30"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 27017
+          [32m+[0m[0m internal = 27017
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.mongodb.docker_image.mongodb[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "mongodb" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "mongodb-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_mongodb"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "mongodb-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.nginx.docker_container.nginx[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "nginx" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-nginx"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-nginx"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.50"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 80
+          [32m+[0m[0m internal = 80
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.nginx.docker_image.nginx[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "nginx" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "nginx-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_nginx"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "nginx-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.nodejs_app.docker_container.node_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "node_app" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-nodejs"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-nodejs"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.10"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5000
+          [32m+[0m[0m internal = 5000
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.nodejs_app.docker_image.node_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "node_app" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "nodejs-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_nodejs"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "nodejs-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.zabbix.docker_container.mysql_server[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "mysql_server" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = [
+          [32m+[0m[0m "--character-set-server=utf8",
+          [32m+[0m[0m "--collation-server=utf8_bin",
+          [32m+[0m[0m "--default-authentication-plugin=mysql_native_password",
+        ]
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "mysql:8.0-oracle"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "mysql-server"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.35"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.zabbix.docker_container.zabbix_java_gateway[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "zabbix_java_gateway" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "zabbix/zabbix-java-gateway:alpine-7.0-latest"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "zabbix-java-gateway"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.31"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.zabbix.docker_container.zabbix_server_mysql[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "zabbix_server_mysql" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "zabbix/zabbix-server-mysql:alpine-7.0-latest"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "zabbix-server-mysql"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.32"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 10051
+          [32m+[0m[0m internal = 10051
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.zabbix.docker_container.zabbix_web_nginx_mysql[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "zabbix_web_nginx_mysql" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "zabbix/zabbix-web-nginx-mysql:alpine-7.0-latest"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "zabbix-web-nginx-mysql"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.33"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 8080
+          [32m+[0m[0m internal = 8080
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1mPlan:[0m 20 to add, 0 to change, 0 to destroy.
+[0m[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
+[8mha:////4D2QOIKp6EdCxVcdm6RF/IkkUZrxfXSjYySDZEJ3GnoqAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4AAYfbVxK7Zb9sCOJLuKMw26EeJgI3+6dZePh99f/Z1rAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4K4jatvjZcgbZcdPTxbMEVE0Ty77pHvK8re7T5og5GJRAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4IbhPQG8+XBvvxbxNr1uEgmNg+4ANub1ccitwbQtIn3vAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Apply Terraform)
+[8mha:////4AYSsyozjIdgtjjCCWQHSXXZU+vgIguELEMott+174oFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ cd /workspace
++ terraform apply -auto-approve
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create[0m
+
+Terraform will perform the following actions:
+
+[1m  # docker_network.app_network[0m will be created
+[0m  [32m+[0m[0m resource "docker_network" "app_network" {
+      [32m+[0m[0m driver      = "bridge"
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m internal    = false
+      [32m+[0m[0m ipam_driver = "default"
+      [32m+[0m[0m name        = "prf-project-network"
+      [32m+[0m[0m options     = (known after apply)
+      [32m+[0m[0m scope       = (known after apply)
+
+      [32m+[0m[0m ipam_config {
+          [32m+[0m[0m gateway  = "172.100.0.1"
+          [32m+[0m[0m subnet   = "172.100.0.0/16"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.angular_app.docker_container.angular_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "angular_app" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-angular"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-angular"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.20"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 4200
+          [32m+[0m[0m internal = 4200
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.angular_app.docker_image.angular_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "angular_app" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "angular-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_angular"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "angular-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_container.datanode[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "datanode" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "datanode"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "graylog/graylog-datanode:6.0"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "datanode"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "on-failure"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.11"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 8999
+          [32m+[0m[0m internal = 8999
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 9200
+          [32m+[0m[0m internal = 9200
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 9300
+          [32m+[0m[0m internal = 9300
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+
+      [32m+[0m[0m ulimit {
+          [32m+[0m[0m hard = -1
+          [32m+[0m[0m name = "memlock"
+          [32m+[0m[0m soft = -1
+        }
+      [32m+[0m[0m ulimit {
+          [32m+[0m[0m hard = 65536
+          [32m+[0m[0m name = "nofile"
+          [32m+[0m[0m soft = 65536
+        }
+
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/var/lib/graylog-datanode"
+          [32m+[0m[0m volume_name    = "graylog-datanode"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_container.graylog[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "graylog" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = [
+          [32m+[0m[0m "/usr/bin/tini",
+          [32m+[0m[0m "--",
+          [32m+[0m[0m "/docker-entrypoint.sh",
+        ]
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "server"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "graylog/graylog:6.0"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "graylog"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "on-failure"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.12"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5044
+          [32m+[0m[0m internal = 5044
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5140
+          [32m+[0m[0m internal = 5140
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "udp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5140
+          [32m+[0m[0m internal = 5140
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5555
+          [32m+[0m[0m internal = 5555
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5555
+          [32m+[0m[0m internal = 5555
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "udp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 9000
+          [32m+[0m[0m internal = 9000
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 12201
+          [32m+[0m[0m internal = 12201
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 12201
+          [32m+[0m[0m internal = 12201
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "udp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 13301
+          [32m+[0m[0m internal = 13301
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 13302
+          [32m+[0m[0m internal = 13302
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/usr/share/graylog/data/data"
+          [32m+[0m[0m volume_name    = "graylog_data"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/usr/share/graylog/data/journal"
+          [32m+[0m[0m volume_name    = "graylog_journal"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_container.mongodb[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "mongodb" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "mongo:5.0"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "mongodb"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "on-failure"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.15"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m volumes {
+          [32m+[0m[0m container_path = "/data/db"
+          [32m+[0m[0m volume_name    = "mongodb_data"
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.graylog.docker_volume.graylog_data[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "graylog_data" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "graylog_data"
+    }
+
+[1m  # module.graylog.docker_volume.graylog_datanode[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "graylog_datanode" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "graylog-datanode"
+    }
+
+[1m  # module.graylog.docker_volume.graylog_journal[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "graylog_journal" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "graylog_journal"
+    }
+
+[1m  # module.graylog.docker_volume.mongodb_data[0m will be created
+[0m  [32m+[0m[0m resource "docker_volume" "mongodb_data" {
+      [32m+[0m[0m driver     = (known after apply)
+      [32m+[0m[0m id         = (known after apply)
+      [32m+[0m[0m mountpoint = (known after apply)
+      [32m+[0m[0m name       = "mongodb_data"
+    }
+
+[1m  # module.mongodb.docker_container.mongodb[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "mongodb" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-mongodb"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-mongodb"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.30"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 27017
+          [32m+[0m[0m internal = 27017
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.mongodb.docker_image.mongodb[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "mongodb" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "mongodb-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_mongodb"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "mongodb-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.nginx.docker_container.nginx[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "nginx" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-nginx"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-nginx"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.50"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 80
+          [32m+[0m[0m internal = 80
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.nginx.docker_image.nginx[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "nginx" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "nginx-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_nginx"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "nginx-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.nodejs_app.docker_container.node_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "node_app" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = "prf-project-nodejs"
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = (known after apply)
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "prf-project-nodejs"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "no"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.10"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 5000
+          [32m+[0m[0m internal = 5000
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.nodejs_app.docker_image.node_app[0m will be created
+[0m  [32m+[0m[0m resource "docker_image" "node_app" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m image_id    = (known after apply)
+      [32m+[0m[0m name        = "nodejs-prf:latest"
+      [32m+[0m[0m repo_digest = (known after apply)
+
+      [32m+[0m[0m build {
+          [32m+[0m[0m cache_from     = []
+          [32m+[0m[0m context        = "."
+          [32m+[0m[0m dockerfile     = "Dockerfile_nodejs"
+          [32m+[0m[0m extra_hosts    = []
+          [32m+[0m[0m no_cache       = true
+          [32m+[0m[0m remove         = true
+          [32m+[0m[0m security_opt   = []
+          [32m+[0m[0m tag            = [
+              [32m+[0m[0m "nodejs-prf:latest",
+            ]
+            [90m# (11 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # module.zabbix.docker_container.mysql_server[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "mysql_server" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = [
+          [32m+[0m[0m "--character-set-server=utf8",
+          [32m+[0m[0m "--collation-server=utf8_bin",
+          [32m+[0m[0m "--default-authentication-plugin=mysql_native_password",
+        ]
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "mysql:8.0-oracle"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "mysql-server"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.35"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.zabbix.docker_container.zabbix_java_gateway[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "zabbix_java_gateway" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (known after apply)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "zabbix/zabbix-java-gateway:alpine-7.0-latest"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "zabbix-java-gateway"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.31"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.zabbix.docker_container.zabbix_server_mysql[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "zabbix_server_mysql" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "zabbix/zabbix-server-mysql:alpine-7.0-latest"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "zabbix-server-mysql"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.32"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 10051
+          [32m+[0m[0m internal = 10051
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1m  # module.zabbix.docker_container.zabbix_web_nginx_mysql[0m will be created
+[0m  [32m+[0m[0m resource "docker_container" "zabbix_web_nginx_mysql" {
+      [32m+[0m[0m attach                                      = false
+      [32m+[0m[0m bridge                                      = (known after apply)
+      [32m+[0m[0m command                                     = (known after apply)
+      [32m+[0m[0m container_logs                              = (known after apply)
+      [32m+[0m[0m container_read_refresh_timeout_milliseconds = 15000
+      [32m+[0m[0m entrypoint                                  = (known after apply)
+      [32m+[0m[0m env                                         = (sensitive value)
+      [32m+[0m[0m exit_code                                   = (known after apply)
+      [32m+[0m[0m hostname                                    = (known after apply)
+      [32m+[0m[0m id                                          = (known after apply)
+      [32m+[0m[0m image                                       = "zabbix/zabbix-web-nginx-mysql:alpine-7.0-latest"
+      [32m+[0m[0m init                                        = (known after apply)
+      [32m+[0m[0m ipc_mode                                    = (known after apply)
+      [32m+[0m[0m log_driver                                  = (known after apply)
+      [32m+[0m[0m logs                                        = false
+      [32m+[0m[0m must_run                                    = true
+      [32m+[0m[0m name                                        = "zabbix-web-nginx-mysql"
+      [32m+[0m[0m network_data                                = (known after apply)
+      [32m+[0m[0m read_only                                   = false
+      [32m+[0m[0m remove_volumes                              = true
+      [32m+[0m[0m restart                                     = "unless-stopped"
+      [32m+[0m[0m rm                                          = false
+      [32m+[0m[0m runtime                                     = (known after apply)
+      [32m+[0m[0m security_opts                               = (known after apply)
+      [32m+[0m[0m shm_size                                    = (known after apply)
+      [32m+[0m[0m start                                       = true
+      [32m+[0m[0m stdin_open                                  = false
+      [32m+[0m[0m stop_signal                                 = (known after apply)
+      [32m+[0m[0m stop_timeout                                = (known after apply)
+      [32m+[0m[0m tty                                         = false
+      [32m+[0m[0m wait                                        = false
+      [32m+[0m[0m wait_timeout                                = 60
+
+      [32m+[0m[0m healthcheck (known after apply)
+
+      [32m+[0m[0m labels (known after apply)
+
+      [32m+[0m[0m networks_advanced {
+          [32m+[0m[0m aliases      = []
+          [32m+[0m[0m ipv4_address = "172.100.0.33"
+          [32m+[0m[0m name         = "prf-project-network"
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [32m+[0m[0m ports {
+          [32m+[0m[0m external = 8080
+          [32m+[0m[0m internal = 8080
+          [32m+[0m[0m ip       = "0.0.0.0"
+          [32m+[0m[0m protocol = "tcp"
+        }
+    }
+
+[1mPlan:[0m 20 to add, 0 to change, 0 to destroy.
+[0m[0m[1mmodule.graylog.docker_volume.graylog_data: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_volume.mongodb_data: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_volume.graylog_datanode: Creating...[0m[0m
+[0m[1mdocker_network.app_network: Creating...[0m[0m
+[0m[1mmodule.nginx.docker_image.nginx: Creating...[0m[0m
+[0m[1mmodule.zabbix.docker_container.zabbix_java_gateway: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_volume.graylog_datanode: Creation complete after 0s [id=graylog-datanode][0m
+[0m[1mmodule.mongodb.docker_image.mongodb: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_volume.mongodb_data: Creation complete after 0s [id=mongodb_data][0m
+[0m[1mmodule.nodejs_app.docker_image.node_app: Creating...[0m[0m
+[0m[1mmodule.angular_app.docker_image.angular_app: Creating...[0m[0m
+[0m[1mmodule.zabbix.docker_container.mysql_server: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_volume.graylog_data: Creation complete after 0s [id=graylog_data][0m
+[0m[1mmodule.graylog.docker_volume.graylog_journal: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_container.mongodb: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_volume.graylog_journal: Creation complete after 0s [id=graylog_journal][0m
+[0m[1mmodule.graylog.docker_container.datanode: Creating...[0m[0m
+[0m[1mmodule.zabbix.docker_container.zabbix_java_gateway: Creation complete after 0s [id=403399d02926db3d42b97f885ae072226202eea51054ee19009d315a33c2492a][0m
+[0m[1mmodule.zabbix.docker_container.mysql_server: Creation complete after 0s [id=91754c0a602e1f6bd0d82035af6cbe1b6bcb0ff7c55b9d7333ab6760e607d4b4][0m
+[0m[1mmodule.graylog.docker_container.mongodb: Creation complete after 0s [id=1ea92defe6e5b628ce35f4e5a12b74888d6d97f2dcd53de77171690607f17f36][0m
+[0m[1mmodule.zabbix.docker_container.zabbix_server_mysql: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_container.datanode: Creation complete after 0s [id=966da8359f892e9feeb26eb74dd019253eeb61158e68f912a87d332f13d3871a][0m
+[0m[1mmodule.graylog.docker_container.graylog: Creating...[0m[0m
+[0m[1mmodule.zabbix.docker_container.zabbix_server_mysql: Creation complete after 1s [id=9767d8f877d3da53530ccb8f03b33ea638a08bf7103c4cd0c4cd32cc0f3892cb][0m
+[0m[1mmodule.zabbix.docker_container.zabbix_web_nginx_mysql: Creating...[0m[0m
+[0m[1mmodule.graylog.docker_container.graylog: Creation complete after 1s [id=9785d11bb355bb4eb7f5a57689e9ffeff6b6abc558f8e4dc6858e9ffb429f9d5][0m
+[0m[1mmodule.zabbix.docker_container.zabbix_web_nginx_mysql: Creation complete after 0s [id=3a72fc07c1827fb958a015bf89c2014a9b2e395027398299178cfe973739cc12][0m
+[0m[1mmodule.mongodb.docker_image.mongodb: Creation complete after 2s [id=sha256:3032061839fd0152c1258f35a92d35d4140d45807020b4d7084c249cdf3071f8mongodb-prf:latest][0m
+[0m[1mmodule.mongodb.docker_container.mongodb: Creating...[0m[0m
+[0m[1mmodule.nginx.docker_image.nginx: Creation complete after 2s [id=sha256:b33e268c2d5b2984bf5cbc527dabd3d18ab1b6791bace959d210166eaf384b2dnginx-prf:latest][0m
+[0m[1mmodule.nginx.docker_container.nginx: Creating...[0m[0m
+[0m[1mdocker_network.app_network: Creation complete after 2s [id=133dfaea3234a5f5c5d6ff18bf7487b06c8877d68c88a486e799d4bbef729a7e][0m
+[0m[1mmodule.mongodb.docker_container.mongodb: Creation complete after 0s [id=04c0866165fbc0dc121c4ea5894cea7f6fdff2ebec340155d175201a4a4dc12b][0m
+[0m[1mmodule.nginx.docker_container.nginx: Creation complete after 0s [id=f5a246ecdef3c407b90361326a471e75a0d39691eb42ddf217a23f8acecd7d0e][0m
+[0m[1mmodule.angular_app.docker_image.angular_app: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.nodejs_app.docker_image.node_app: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.angular_app.docker_image.angular_app: Still creating... [20s elapsed][0m[0m
+[0m[1mmodule.nodejs_app.docker_image.node_app: Still creating... [20s elapsed][0m[0m
+[0m[1mmodule.nodejs_app.docker_image.node_app: Creation complete after 25s [id=sha256:8e151d294cdfc965520a0597b883ba82cf3558484af3bf1d88e792a1a6d65d74nodejs-prf:latest][0m
+[0m[1mmodule.nodejs_app.docker_container.node_app: Creating...[0m[0m
+[0m[1mmodule.nodejs_app.docker_container.node_app: Creation complete after 0s [id=78a410f2db3d35457e1018455deeaa7ac32ee0c8cf2b0220b626381686014536][0m
+[0m[1mmodule.angular_app.docker_image.angular_app: Still creating... [30s elapsed][0m[0m
+[0m[1mmodule.angular_app.docker_image.angular_app: Still creating... [40s elapsed][0m[0m
+[0m[1mmodule.angular_app.docker_image.angular_app: Still creating... [50s elapsed][0m[0m
+[0m[1mmodule.angular_app.docker_image.angular_app: Creation complete after 57s [id=sha256:eae9222778baa87ab8b419b13eb13eac9a714e6911b96229763a838cfe51332bangular-prf:latest][0m
+[0m[1mmodule.angular_app.docker_container.angular_app: Creating...[0m[0m
+[0m[1mmodule.angular_app.docker_container.angular_app: Creation complete after 0s [id=37b96f2fb7422c5f6c746c7f9759514155d51f9d5b0f50bb484e53c279b588cc][0m
+[0m[1m[32m
+Apply complete! Resources: 20 added, 0 changed, 0 destroyed.
+[0m
+[8mha:////4MQ29ANCkjSHIsDf6qaRSExyRZEg13NitR0O7PBHeo1KAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4HVoEqoN9NzkfL1kPzCVR8Ob1Yb5j6WGYKtvzohrj47nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4GUbsYNVgGRkAvIISDV9CaDlE1YyM0iotllYFfKfjRMuAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A/ufhVXBAAAA[0m[Pipeline] stage
+[8mha:////4ANCyrehyUXSFkcdi7c7xYNFqdWiJO2NVieJAMlz+PJ5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Verify Docker Containers)
+[8mha:////4K+OUdS5HxXgNscURmwBxwMmxV6fHEhQyPay91fL9wkfAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ docker ps
+CONTAINER ID   IMAGE                                             COMMAND                  CREATED          STATUS                             PORTS                                                                                                                                                                                                                                      NAMES
+37b96f2fb742   eae9222778ba                                      "docker-entrypoint.s…"   2 seconds ago    Up 1 second                        0.0.0.0:4200->4200/tcp, 10050/tcp                                                                                                                                                                                                          prf-project-angular
+78a410f2db3d   8e151d294cdf                                      "docker-entrypoint.s…"   33 seconds ago   Up 33 seconds                      0.0.0.0:5000->5000/tcp, 10050/tcp                                                                                                                                                                                                          prf-project-nodejs
+f5a246ecdef3   b33e268c2d5b                                      "/docker-entrypoint.…"   57 seconds ago   Up 57 seconds                      0.0.0.0:80->80/tcp                                                                                                                                                                                                                         prf-project-nginx
+04c0866165fb   3032061839fd                                      "docker-entrypoint.s…"   57 seconds ago   Up 57 seconds                      0.0.0.0:27017->27017/tcp                                                                                                                                                                                                                   prf-project-mongodb
+3a72fc07c182   zabbix/zabbix-web-nginx-mysql:alpine-7.0-latest   "docker-entrypoint.sh"   58 seconds ago   Up 57 seconds                      0.0.0.0:8080->8080/tcp, 8443/tcp                                                                                                                                                                                                           zabbix-web-nginx-mysql
+9785d11bb355   graylog/graylog:6.0                               "/usr/bin/tini -- /d…"   58 seconds ago   Up 58 seconds (health: starting)   0.0.0.0:5044->5044/tcp, 0.0.0.0:5140->5140/tcp, 0.0.0.0:5140->5140/udp, 0.0.0.0:5555->5555/tcp, 0.0.0.0:9000->9000/tcp, 0.0.0.0:5555->5555/udp, 0.0.0.0:12201->12201/tcp, 0.0.0.0:13301-13302->13301-13302/tcp, 0.0.0.0:12201->12201/udp   graylog
+9767d8f877d3   zabbix/zabbix-server-mysql:alpine-7.0-latest      "/usr/bin/docker-ent…"   58 seconds ago   Up 58 seconds                      0.0.0.0:10051->10051/tcp                                                                                                                                                                                                                   zabbix-server-mysql
+966da8359f89   graylog/graylog-datanode:6.0                      "tini -- /entrypoint…"   59 seconds ago   Up 58 seconds                      0.0.0.0:8999->8999/tcp, 0.0.0.0:9200->9200/tcp, 0.0.0.0:9300->9300/tcp                                                                                                                                                                     datanode
+1ea92defe6e5   mongo:5.0                                         "docker-entrypoint.s…"   59 seconds ago   Up 58 seconds                      27017/tcp                                                                                                                                                                                                                                  mongodb
+91754c0a602e   mysql:8.0-oracle                                  "docker-entrypoint.s…"   59 seconds ago   Up 58 seconds                      3306/tcp, 33060/tcp                                                                                                                                                                                                                        mysql-server
+403399d02926   zabbix/zabbix-java-gateway:alpine-7.0-latest      "docker-entrypoint.s…"   59 seconds ago   Up 58 seconds                      10052/tcp                                                                                                                                                                                                                                  zabbix-java-gateway
+a1a92d3c6be2   jenkins-jenkins                                   "/usr/bin/tini -- /u…"   7 minutes ago    Up 7 minutes                       0.0.0.0:50000->50000/tcp, :::50000->50000/tcp, 0.0.0.0:8090->8080/tcp, [::]:8090->8080/tcp                                                                                                                                                 jenkins_container
+[8mha:////4KVxBkbq/Imnn+g44Nhop+ff2AdsmmKNXALyOcPz5MPEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4Ek1SJCuM+cpT1ONzdFYyLpPIghEfPfGJ0+zG61tisJIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4G2kFy6yC6rRjbsohlf650wuTSH6vTajroZvjGUabrBbAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIKVBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZvQ6+ASMEAAAA=[0m[Pipeline] stage
+[8mha:////4D7cGQZYAZthfcE0TUEeek6IT4aUsj/H5i+N8fotVI6SAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4JbTSuM9+A+p50nmt8D7Br2nk8aAKKo0nmD7K28sr9rRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] echo
+Pipeline completed successfully.
+[8mha:////4GAoFuLTZ8DdOpa850Dr8tJYjrLJZd6/b4SFXpR6cE0SAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4CG7jnvobIJtIz/vJN10y126uq9iSb9NsZiZVRPWc4KvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // stage
+[8mha:////4H/BFOdT1SY25b56Eu89ZkmxDs/eqGcqKWbf0F0Bq2+XAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AKry5lG9AAAA[0m[Pipeline] }
+[8mha:////4IItx1IWjf6wFkRmvm51P8SrA/ywbwE+AsjfCzKR3g8YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPwNlPj70AAAA=[0m[Pipeline] // withEnv
+[8mha:////4CSgW4c1iSUnAeHjZ06yWn/Rw4wXAVjeoWAQE9GgQh7wAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/mwCjFvQAAAA==[0m[Pipeline] }
+[8mha:////4CvxlkCGMt8BQet0ldGa0QMv37jsmOdMTCPu9aBS6e78AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9ViWzpvQAAAA==[0m[Pipeline] // node
+[8mha:////4C5IXNAKs/xJ6x5tn7fdmpZlLB4mkB15x1Yp1zLhhrAMAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPc5ALo70AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

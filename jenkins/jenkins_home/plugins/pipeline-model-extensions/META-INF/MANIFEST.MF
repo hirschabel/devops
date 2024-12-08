@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Pipeline: Declarative Extension Points API
+Specification-Version: 0.0
+Implementation-Title: Pipeline: Declarative Extension Points API
+Implementation-Version: 2.2218.v56d0cda_37c72
+Group-Id: org.jenkinsci.plugins
+Artifact-Id: pipeline-model-extensions
+Short-Name: pipeline-model-extensions
+Long-Name: Pipeline: Declarative Extension Points API
+Url: https://github.com/jenkinsci/pipeline-model-definition-plugin
+Compatible-Since-Version: 1.2-beta-4
+Plugin-Version: 2.2218.v56d0cda_37c72
+Hudson-Version: 2.426.3
+Jenkins-Version: 2.426.3
+Plugin-Dependencies: workflow-cps:3961.ve48ee2c44a_b_3,workflow-job:1385
+ .vb_58b_86ea_fff1,credentials-binding:677.vdc9d38cb_254d,credentials:13
+ 37.v60b_d7b_c7b_c9f,pipeline-stage-step:312.v8cd10304c27a_,pipeline-mod
+ el-api:2.2218.v56d0cda_37c72
+Plugin-Developers: Andrew Bayer:abayer:
+Plugin-License-Name: MIT
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/pipeline-mode
+ l-definition-plugin.git
+Plugin-ScmTag: 56d0cda37c726c9405c7f24f0fece00672439068
+Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-model-definition-pl
+ ugin
+Plugin-GitHash: 56d0cda37c726c9405c7f24f0fece00672439068
+Implementation-Build: 56d0cda37c726c9405c7f24f0fece00672439068
+
