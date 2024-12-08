@@ -35,9 +35,12 @@ Fontos lehet, hogy sudo nélkül tudnod kell docker-t futtatni (`sudo usermod -a
 2. Addi ki a `docker compose up --build` parancsot
 3. Várd meg míg elindul a jenkins
 4. Navigálj a kedvenc webböngésződben a `localhost:8090` címre, ahol megtalálod a jenkins-t
-5. Indítsd el a `In a completely sane world, madness is the only freedom` nevű job-ot és nézegesd a logokat amíg dolgozik
-6. Örömmel ünnepelj miután egy zöld pipát és `Pipeline completed successfully.` üzenetet látsz
-7. Ha le akarod állítani, akkor sajnos terminálban kell kiadnod a `terraform destroy` parancsot
+5. Nem engedett mindent felcommitolni, lehet rászorul a jenkins egy plugin oldalon install plugins nyomásra, de a fontos pluginok amik kellenek:
+  * `Docker pipeline`
+  * `Terraform Plugin`
+6. Indítsd el a `In a completely sane world, madness is the only freedom` nevű job-ot és nézegesd a logokat amíg dolgozik
+7. Örömmel ünnepelj miután egy zöld pipát és `Pipeline completed successfully.` üzenetet látsz
+8. Ha le akarod állítani, akkor sajnos terminálban kell kiadnod a `terraform destroy` parancsot
 
 Manuális indítás (ha a jenkins nagyon nem menne [nálam ment]):
 1. navigálj a `pdf-app` mappába
