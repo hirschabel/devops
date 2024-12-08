@@ -10,7 +10,7 @@
   * 4200 *(frontend)*
   * 10050 *(frontend)*
   * 5000 *(backend)*
-  * 6000 *(mongodb - prf)*
+  * 27017 *(mongodb - prf)*
   * 8080 *(zabbix - web)*
   * 8443 *(zabbix - web)*
   * 5044 *(graylog)*
