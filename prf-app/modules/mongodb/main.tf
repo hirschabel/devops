@@ -26,7 +26,7 @@ resource "docker_container" "mongodb" {
   # Port mapping
   ports {
     internal = var.app_port
-    external = 6000
+    external = var.app_port
   }
   
   # Hálózat csatlakozás
