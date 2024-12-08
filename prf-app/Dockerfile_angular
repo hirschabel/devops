@@ -6,10 +6,12 @@ RUN npm install -g @angular/cli
 RUN npm install -g pm2
 RUN npm install -g http-server
 WORKDIR /app
-RUN git clone https://github.com/jankiz/Program-systems-development.git
-WORKDIR /app/Program-systems-development
-RUN git checkout release/devops
-WORKDIR /app/Program-systems-development/client/my-first-project
+
+RUN git clone https://github.com/hirschabel/fakebook.git
+WORKDIR /app/fakebook
+RUN git checkout devops
+WORKDIR /app/fakebook/client/my-first-project
+
 RUN npm install
 RUN npm run build
 EXPOSE 4200 10050

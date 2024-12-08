@@ -6,11 +6,12 @@ RUN apk add git
 RUN npm install -g pm2
 
 WORKDIR /app
-RUN git clone https://github.com/jankiz/Program-systems-development.git
-WORKDIR /app/Program-systems-development
-RUN git checkout release/devops
 
-WORKDIR /app/Program-systems-development/server
+RUN git clone https://github.com/hirschabel/fakebook.git
+WORKDIR /app/fakebook
+RUN git checkout devops
+WORKDIR /app/fakebook/server
+
 RUN npm install
 RUN npm run build
 
