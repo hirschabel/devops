@@ -88,17 +88,21 @@ Az egész jenkinsből egy jobot futtatva szépen előáll, igazából a jenkins 
 
 ### Fakebook
 Át lett módosítva sok fájl benne, minden ami localhost-ra mutatott, már szépen az ip-re mutat.
+
 Erről többet itt találsz: https://github.com/hirschabel/fakebook/tree/devops
+
 Commit: https://github.com/hirschabel/fakebook/commit/1bd19cfce288265a47b717c39c0cd3c2306aa513
 
 Sajnos a docker logs a servernél azt írja, hogy a mongodb connection refused-ot adott neki, pedig az ip és a port egyezik, így csak elméletben használható az alkalmazás
 
 ### Nginx
 Annyit csinál, hogy a localhost-t beírva (localhost:80) átirányítja a user-t a localhost:4200-on futó angular felé.
+
 A `http://test-app.test`-re érkező kéréseket is továbbítja, de nem tartozik hozzá dns szerver, magunknak kell felvenni, vagy nem felvenni.
 
 ### Graylog és Zabbix
 Fentebb található a leírás a beüzemelésről.
+
 A projektbe bevonásuk trükkös volt.
 
 A tett lépések:
